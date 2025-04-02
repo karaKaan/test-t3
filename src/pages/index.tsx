@@ -13,5 +13,5 @@ export default function Home() {
   });
   console.log({ data });
 
-  return <button onClick={() => mutate()}>Click</button>;
+  return <button onClick={() => mutate({ name: "tom" })}>Click</button>;
 }
